@@ -1,0 +1,8 @@
+[Unit]
+Description=Run the ngrok proxy for the gong server
+
+[Service]
+ExecStart=/opt/gong/run-ngrok.sh
+
+[Install]
+WantedBy=multi-user.target

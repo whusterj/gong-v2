@@ -1,0 +1,6 @@
+authtoken: 5vLSKEewm5p934H5XfRbo_3g9TMybhvE2fiEgdLiMSe
+tunnels:
+  gong:
+      addr: 8000
+      proto: http
+      subdomain: gong

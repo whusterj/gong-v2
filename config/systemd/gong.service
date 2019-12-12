@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the gong flask server
+After=pigpio.service
+
+[Service]
+ExecStart=/opt/gong/run-gong.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

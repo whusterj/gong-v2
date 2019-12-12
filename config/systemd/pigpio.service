@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the pigpio service
+
+[Service]
+ExecStart=/opt/gong/run-pigpio.sh
+
+[Install]
+WantedBy=multi-user.target
+
